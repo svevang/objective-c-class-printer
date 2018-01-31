@@ -3,7 +3,7 @@
 #include <objc/objc-class.h>
 
 int objc_getClassList(Class *buffer, int bufferCount);
-const char *    object_getClassName           (id        obj);
+const char * object_getClassName(id obj);
 
 int print_classes() {
   int numClasses;
