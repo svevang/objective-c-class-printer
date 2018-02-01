@@ -4,5 +4,8 @@ Print out a graphviz digraph of Objective-C class hierarchies.
 
 ## Getting Started
 
-The easiest way to get started is to copy the .c and .h files ti your
-project and call from your main.
+Run `$ make` to build the program and construct the graphs.
+See `objc_runtime.svg` and `objc_runtime_plus_foundation.svg` for extant
+graph output.
+
+
